@@ -1,0 +1,54 @@
+
+.tree ul {
+    margin: 0 0 0 12px;
+    padding-left: 5px;
+    list-style: outside;
+    color: #369;
+    border-left: 1px #ccc dashed;
+}
+
+.tree ul li p:hover {
+    color: green;
+}
+
+.tree ul:hover {
+    border-left: 1px green dashed;
+}
+
+.tree li {
+    font-weight: bold;
+    list-style: none;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+
+
+.isItem:before {
+    color: #ccc;
+    content: "--";
+    float: left;
+}
+.isItem:hover:before {
+    color: green;
+    content: "---";
+    float: left;
+}
+.ul:before {
+    content: "-";
+}
+
+.isOpen:after {
+    content: " - [-]  ";
+    color: #370;
+}
+
+.isClose:after {
+    content: " - [+]  ";
+    color: #369!important;
+}

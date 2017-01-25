@@ -1,0 +1,11 @@
+<li class="w3-padding-16">
+
+  <span onclick="this.parentElement.style.display='none'" class="w3-closebtn w3-padding w3-margin-right w3-medium">&times;</span>
+  <img src="{Avatar}" class="w3-left w3-round w3-margin-right" style="width:60px">
+  <span class="w3-xlarge">{first_name} {last_name}</span><br>
+  <span>{Slogan}</span>
+  <div><span>Email :{email}</span></div>
+  <div><span>Country :{country}</span></div>
+  <div><span>Gender :{gender}</span></div>
+
+</li>
